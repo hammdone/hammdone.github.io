@@ -18,12 +18,6 @@ darkmode: true
 github_username: hammdone
 linkedin_username: hammd-ahmed
 
-# Additional links (optional)
-additional_links:
-  - title: GitHub Portfolio
-    icon: fab fa-github
-    url: https://github.com/hammdone
-
 # About Section
 about_profile_image: images/profile.jpg
 about_content: |
@@ -32,102 +26,106 @@ about_content: |
   Interested in applied AI, behavioral modeling, and scalable systems.
 
 content:
+
   - title: Projects
     layout: list
     content:
+
       - layout: top-middle
         title: MindBloom – AI-Powered Study Productivity Platform
+        quote: >
+          Multi-platform AI study assistant with personalized recommendations and real-time productivity tracking
         caption: Sep 2025 – Present
         description: |
-          • Built a multi-platform study assistant (web, mobile, Chrome extension) using Node.js/Express and Firebase  
-          • Developed features including focus tracking, AI flashcards from PDFs, analytics dashboards, and gamification  
-          • Designed a machine learning recommendation system for personalized study planning  
-          • Implemented secure APIs and end-to-end testing using Playwright
+          Built a multi-platform study assistant (web, mobile, Chrome extension) using Node.js/Express and Firebase.  
+          Implemented focus tracking, AI flashcard generation from PDFs, analytics dashboards, and gamified rewards.  
+          Designed a machine learning recommendation engine for personalized study planning and implemented secure APIs with Playwright testing.
 
       - layout: top-middle
         title: EmoBuddy – Multimodal Affective Computing
+        quote: >
+          AI-driven emotional support system for neurodivergent children using multimodal sensing
         caption: Jan 2025 – May 2025
         description: |
-          • Built affect-sensing system using facial, vocal, and physiological signals  
-          • Designed LLM-based conversational flows guided by developmental psychology
+          Designed a system integrating facial cues, vocal signals, and physiological indicators for emotion detection.  
+          Built LLM-based conversational flows guided by developmental psychology and AI ethics.
 
       - layout: top-middle
         title: Ethereum Wallet Behavioral Modeling
+        quote: >
+          Blockchain analytics system for detecting high-risk wallet activity using anomaly detection
         caption: Jun 2025 – Sep 2025
         description: |
-          • Created dataset of 10k Ethereum wallets with behavioral features  
-          • Applied anomaly detection to identify high-risk transaction patterns  
-          • Built Flask-based wallet risk scoring tool using blockchain APIs
+          Created dataset of 10k Ethereum wallets with behavioral features.  
+          Applied anomaly detection techniques to identify suspicious transaction patterns.  
+          Built a Flask-based wallet risk scoring tool using blockchain APIs.
 
       - layout: top-middle
         title: PDF Chat Assistant (LLM)
+        quote: >
+          Conversational AI tool for querying and summarizing documents using semantic search
         caption: Aug 2025 – Sep 2025
         description: |
-          • Built conversational PDF QA system using LangChain, Gemini, and ChromaDB  
-          • Implemented semantic search, chunking, and summarization pipelines
-
-      - layout: top-middle
-        title: Qatra Hayat – Blood Donation Platform
-        caption: Jan 2025 – Jun 2025
-        description: |
-          • Developed real-time donor-recipient matching app using Flutter and Firebase  
-          • Implemented authentication and compatibility routing
-
-      - layout: top-middle
-        title: ColorGrid Multiplayer Game
-        caption: Apr 2025
-        description: |
-          • Built real-time multiplayer game using MERN stack and Socket.IO  
-          • Implemented matchmaking and anti-cheat validation
+          Built a PDF QA system using LangChain, Gemini, and ChromaDB.  
+          Implemented chunking, vector search, and summarization pipelines.
 
   - title: Experience
     layout: list
     content:
+
       - layout: left
         title: OptimusFox
         sub_title: Applied AI & Blockchain Research Intern
         caption: May 2025 – Aug 2025
+        quote: >
+          Developed production-level blockchain risk analysis systems
         description: |
-          • Built blockchain wallet risk scoring system (AML, scams, sanctions, phishing)  
-          • Developed real-time wallet screener using Flask and RandomForest (Docker deployed)
+          Built a wallet risk scoring system covering AML, scams, sanctions, and phishing.  
+          Developed a real-time wallet screener using Flask and RandomForest, deployed via Docker.
 
       - layout: left
         title: OptimusFox
         sub_title: Machine Learning Intern
         caption: Jun 2024 – Sep 2024
+        quote: >
+          Built and deployed ML models for production recommender systems
         description: |
-          • Developed ML models for recommender systems  
-          • Improved accuracy and deployed into production systems
+          Developed machine learning models improving recommendation accuracy.  
+          Integrated models into client-facing systems.
 
       - layout: left
         title: OptimusFox
         sub_title: Software Engineering Intern
         caption: May 2023 – Jun 2023
+        quote: >
+          Full-stack development experience in production environments
         description: |
-          • Built React + Redux components  
-          • Contributed to Node.js and C++ backend systems
+          Built React + Redux components and contributed to backend systems in Node.js and C++.
 
   - title: Education
     layout: list
     content:
       - layout: left
         title: Lahore University of Management Sciences (LUMS)
-        sub_title: BS Computer Science
         caption: 2022 – 2026
+        sub_title: BS Computer Science
+        quote: >
+          Undergraduate program focused on AI, systems, and software engineering
+        description: |
+          Relevant coursework includes machine learning, databases, distributed systems, and software engineering.
 
   - title: Technical Skills
     layout: text
     content: |
       **Languages:** Python, JavaScript, C/C++, SQL, Dart, HTML/CSS  
       **Frameworks:** React, Node.js, Flask, Django, Flutter, PyTorch, TensorFlow, Scikit-learn  
-      **Tools:** Docker, Git, Firebase, Vercel, Jira
+      **Tools:** Docker, Git, Firebase, Vercel, Jira  
 
   - title: A Little More About Me
     layout: text
     content: |
-      • Strong interest in applied AI and behavioral modeling  
-      • Experience building scalable full-stack applications  
-      • Enjoy working on real-world problem-solving systems and product-focused development
+      Strong interest in applied AI, behavioral modeling, and building scalable systems.  
+      Enjoy working on real-world problems involving data, machine learning, and system design.
 
 # Footer
 footer_show_references: false
@@ -140,4 +138,4 @@ sass:
   style: compressed
 
 plugins:
-  - jekyll-seo-tag
+ - jekyll-seo-tag
