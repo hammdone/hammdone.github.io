@@ -9,6 +9,7 @@ version: 2
 name: Hammd Ahmed
 title: Computer Science Student | AI & Software Engineering
 email: hammd7026@gmail.com
+phone: +92-300-9441713
 website: https://github.com/hammdone
 
 # Dark Mode
@@ -19,18 +20,17 @@ github_username: hammdone
 linkedin_username: hammd-ahmed
 
 # About Section
-about_profile_image: images/2026-10-0334.png
+about_profile_image: images/profile.jpg
 about_content: |
   Computer Science student at LUMS with strong experience in AI, machine learning, and full-stack development. 
   Built real-world systems including blockchain risk analysis tools, recommender systems, and AI-powered applications. 
-  Interested in applied AI, behavioral modeling, and scalable systems.
+  Experienced in deploying scalable systems and working with real datasets. 
+  Interested in applied AI, behavioral modeling, and production-level systems.
 
 content:
-
   - title: Projects
     layout: list
     content:
-
       - layout: top-middle
         title: MindBloom – AI-Powered Study Productivity Platform
         quote: >
@@ -42,16 +42,11 @@ content:
           Designed a machine learning recommendation engine for personalized study planning and implemented secure APIs with Playwright testing.
 
       - layout: top-middle
-        title: EmoBuddy – Multimodal Affective Computing
-        quote: >
-          AI-driven emotional support system for neurodivergent children using multimodal sensing
-        caption: Jan 2025 – May 2025
-        description: |
-          Designed a system integrating facial cues, vocal signals, and physiological indicators for emotion detection.  
-          Built LLM-based conversational flows guided by developmental psychology and AI ethics.
-
-      - layout: top-middle
         title: Ethereum Wallet Behavioral Modeling
+        additional_links:
+          - title: GitHub
+            icon: fab fa-github
+            url: https://github.com/hammdone/ethereum-wallet-risk-dataset
         quote: >
           Blockchain analytics system for detecting high-risk wallet activity using anomaly detection
         caption: Jun 2025 – Sep 2025
@@ -61,7 +56,24 @@ content:
           Built a Flask-based wallet risk scoring tool using blockchain APIs.
 
       - layout: top-middle
+        title: Wallet Screener
+        additional_links:
+          - title: GitHub
+            icon: fab fa-github
+            url: https://github.com/hammdone/walletscreener
+        quote: >
+          Real-time blockchain wallet screening tool for risk assessment
+        caption: 2025
+        description: |
+          Built a real-time wallet screening application using Flask and RandomForest.  
+          Integrated blockchain APIs to analyze transactions and flag high-risk wallets.
+
+      - layout: top-middle
         title: PDF Chat Assistant (LLM)
+        additional_links:
+          - title: GitHub
+            icon: fab fa-github
+            url: https://github.com/hammdone/chatwithpdf
         quote: >
           Conversational AI tool for querying and summarizing documents using semantic search
         caption: Aug 2025 – Sep 2025
@@ -69,10 +81,31 @@ content:
           Built a PDF QA system using LangChain, Gemini, and ChromaDB.  
           Implemented chunking, vector search, and summarization pipelines.
 
+      - layout: top-middle
+        title: ColorGrid Multiplayer Game
+        additional_links:
+          - title: GitHub
+            icon: fab fa-github
+            url: https://github.com/hammdone/ColorGrid-Game
+        quote: >
+          Real-time multiplayer game with synchronized gameplay using WebSockets
+        caption: Apr 2025
+        description: |
+          Built a real-time multiplayer game using MERN stack and Socket.IO.  
+          Implemented matchmaking, room management, and anti-cheat validation.
+
+      - layout: top-middle
+        title: EmoBuddy – Multimodal Affective Computing
+        quote: >
+          AI-driven emotional support system for neurodivergent children using multimodal sensing
+        caption: Jan 2025 – May 2025
+        description: |
+          Designed a system integrating facial cues, vocal signals, and physiological indicators for emotion detection.  
+          Built LLM-based conversational flows guided by developmental psychology and AI ethics.
+
   - title: Experience
     layout: list
     content:
-
       - layout: left
         title: OptimusFox
         sub_title: Applied AI & Blockchain Research Intern
@@ -119,7 +152,7 @@ content:
     content: |
       **Languages:** Python, JavaScript, C/C++, SQL, Dart, HTML/CSS  
       **Frameworks:** React, Node.js, Flask, Django, Flutter, PyTorch, TensorFlow, Scikit-learn  
-      **Tools:** Docker, Git, Firebase, Vercel, Jira  
+      **Tools:** Docker, Git, Firebase, Vercel, Jira
 
   - title: A Little More About Me
     layout: text
@@ -138,4 +171,4 @@ sass:
   style: compressed
 
 plugins:
- - jekyll-seo-tag
+  - jekyll-seo-tag
