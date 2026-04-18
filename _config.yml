@@ -22,90 +22,103 @@ linkedin_username: hammd-ahmed
 # About Section
 about_profile_image: images/profile.png
 about_content: |
-  Computer Science student at LUMS with strong experience in AI, machine learning, and full-stack development. 
-  Built real-world systems including blockchain risk analysis tools, recommender systems, and AI-powered applications. 
-  Experienced in deploying scalable systems and working with real datasets. 
+  Computer Science student at LUMS with strong experience in AI, machine learning, and full-stack development.
+  Built real-world systems including blockchain risk analysis tools, recommender systems, and AI-powered applications.
+  Experienced in deploying scalable systems and working with real datasets.
   Interested in applied AI, behavioral modeling, and production-level systems.
 
 content:
+
   - title: Projects
     layout: list
     content:
-      - layout: top-middle
-        title: MindBloom – AI-Powered Study Productivity Platform
+
+      - layout: left
+        title: MindBloom
+        sub_title: AI-Powered Study Productivity Platform
+        caption: Sep 2025 – Present
         quote: >
           Multi-platform AI study assistant with personalized recommendations and real-time productivity tracking
-        caption: Sep 2025 – Present
         description: |
-          Built a multi-platform study assistant (web, mobile, Chrome extension) using Node.js/Express and Firebase.  
-          Implemented focus tracking, AI flashcard generation from PDFs, analytics dashboards, and gamified rewards.  
-          Designed a machine learning recommendation engine for personalized study planning and implemented secure APIs with Playwright testing.
+          Built a multi-platform study assistant spanning web, mobile, and Chrome extension clients, with a Node.js/Express backend and Firebase-based authentication and data services.
+          Implemented core features including focus timer and session logging, AI flashcard generation from PDF notes, study analytics dashboards, goals, calendar integration, chat, and gamified rewards.
+          Designed and integrated a machine learning recommendation engine for personalized study planning, supported by secure API design and Playwright-based integration and end-to-end tests.
 
-      - layout: top-middle
+      - layout: left
         title: Ethereum Wallet Behavioral Modeling
+        sub_title: Blockchain Risk Analytics Project
+        caption: Jun 2025 – Sep 2025
         additional_links:
           - title: GitHub
             icon: fab fa-github
             url: https://github.com/hammdone/ethereum-wallet-risk-dataset
         quote: >
           Blockchain analytics system for detecting high-risk wallet activity using anomaly detection
-        caption: Jun 2025 – Sep 2025
         description: |
-          Created dataset of 10k Ethereum wallets with behavioral features.  
-          Applied anomaly detection techniques to identify suspicious transaction patterns.  
-          Built a Flask-based wallet risk scoring tool using blockchain APIs.
+          Created a dataset of 10k Ethereum wallets with behavioral and temporal features.
+          Applied anomaly detection techniques to identify suspicious transaction patterns and high-risk activity.
+          Built a Flask-based wallet risk scoring workflow using blockchain APIs for behavioral assessment.
 
-      - layout: top-middle
+      - layout: left
         title: Wallet Screener
+        sub_title: Real-Time Blockchain Risk Screening Tool
+        caption: 2025
         additional_links:
           - title: GitHub
             icon: fab fa-github
             url: https://github.com/hammdone/walletscreener
         quote: >
           Real-time blockchain wallet screening tool for risk assessment
-        caption: 2025
         description: |
-          Built a real-time wallet screening application using Flask and RandomForest.  
+          Built a real-time wallet screening application using Flask and RandomForest.
           Integrated blockchain APIs to analyze transactions and flag high-risk wallets.
+          Focused on practical screening for AML, scams, sanctions, and phishing-related patterns.
 
-      - layout: top-middle
-        title: PDF Chat Assistant (LLM)
+      - layout: left
+        title: PDF Chat Assistant
+        sub_title: LLM-Powered Document Question Answering System
+        caption: Aug 2025 – Sep 2025
         additional_links:
           - title: GitHub
             icon: fab fa-github
             url: https://github.com/hammdone/chatwithpdf
         quote: >
           Conversational AI tool for querying and summarizing documents using semantic search
-        caption: Aug 2025 – Sep 2025
         description: |
-          Built a PDF QA system using LangChain, Gemini, and ChromaDB.  
-          Implemented chunking, vector search, and summarization pipelines.
+          Built a PDF question answering system using LangChain, Gemini, and ChromaDB.
+          Implemented chunking, vector search, and retrieval pipelines for semantic document querying.
+          Added summarization and structured Q&A flows for a cleaner user experience.
 
-      - layout: top-middle
+      - layout: left
         title: ColorGrid Multiplayer Game
+        sub_title: MERN + Socket.IO Real-Time Game
+        caption: Apr 2025
         additional_links:
           - title: GitHub
             icon: fab fa-github
             url: https://github.com/hammdone/ColorGrid-Game
         quote: >
           Real-time multiplayer game with synchronized gameplay using WebSockets
-        caption: Apr 2025
         description: |
-          Built a real-time multiplayer game using MERN stack and Socket.IO.  
-          Implemented matchmaking, room management, and anti-cheat validation.
+          Built a real-time multiplayer game using the MERN stack and Socket.IO.
+          Implemented matchmaking, room management, synchronized gameplay, and anti-cheat validation.
+          Focused on low-latency interaction and consistent game-state updates.
 
-      - layout: top-middle
-        title: EmoBuddy – Multimodal Affective Computing
+      - layout: left
+        title: EmoBuddy
+        sub_title: Multimodal Affective Computing
+        caption: Jan 2025 – May 2025
         quote: >
           AI-driven emotional support system for neurodivergent children using multimodal sensing
-        caption: Jan 2025 – May 2025
         description: |
-          Designed a system integrating facial cues, vocal signals, and physiological indicators for emotion detection.  
+          Designed a system integrating facial cues, vocal signals, and physiological indicators for emotion detection.
           Built LLM-based conversational flows guided by developmental psychology and AI ethics.
+          Focused on child-friendly design and emotionally supportive interaction.
 
   - title: Experience
     layout: list
     content:
+
       - layout: left
         title: OptimusFox
         sub_title: Applied AI & Blockchain Research Intern
@@ -113,7 +126,7 @@ content:
         quote: >
           Developed production-level blockchain risk analysis systems
         description: |
-          Built a wallet risk scoring system covering AML, scams, sanctions, and phishing.  
+          Built a wallet risk scoring system covering AML, scams, sanctions, and phishing.
           Developed a real-time wallet screener using Flask and RandomForest, deployed via Docker.
 
       - layout: left
@@ -123,7 +136,7 @@ content:
         quote: >
           Built and deployed ML models for production recommender systems
         description: |
-          Developed machine learning models improving recommendation accuracy.  
+          Developed machine learning models improving recommendation accuracy.
           Integrated models into client-facing systems.
 
       - layout: left
@@ -150,14 +163,14 @@ content:
   - title: Technical Skills
     layout: text
     content: |
-      **Languages:** Python, JavaScript, C/C++, SQL, Dart, HTML/CSS  
-      **Frameworks:** React, Node.js, Flask, Django, Flutter, PyTorch, TensorFlow, Scikit-learn  
+      **Languages:** Python, JavaScript, C/C++, SQL, Dart, HTML/CSS
+      **Frameworks:** React, Node.js, Flask, Django, Flutter, PyTorch, TensorFlow, Scikit-learn
       **Tools:** Docker, Git, Firebase, Vercel, Jira
 
   - title: A Little More About Me
     layout: text
     content: |
-      Strong interest in applied AI, behavioral modeling, and building scalable systems.  
+      Strong interest in applied AI, behavioral modeling, and building scalable systems.
       Enjoy working on real-world problems involving data, machine learning, and system design.
 
 # Footer
@@ -171,4 +184,4 @@ sass:
   style: compressed
 
 plugins:
-  - jekyll-seo-tag
+ - jekyll-seo-tag
